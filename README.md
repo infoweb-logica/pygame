@@ -6,3 +6,4 @@
 
 ## Notas de aula
 1. :paperclip: [Introdução](/01-pygame-introducao.md)
+2. :paperclip: [Placar](/02-pygame-placar.md)
