@@ -1,13 +1,18 @@
-# PyGame
+# Jogos eletrônicos - Notas de aula, códigos exemplo e projeto dos alunos
 
-Repositório com códigos de exemplo de uso do PyGame.
+## Informações gerais
 
-## Projetos exemplos
-FIXME
+- **Público alvo**: alunos da disciplina de **Introdução a lógica e programação** do curso de [Infoweb](https://diatinf.ifrn.edu.br/cursos/tecnico-em-informatica-para-internet/) na [DIATINF](https://diatinf.ifrn.edu.br/) no [CNAT-IFRN](https://portal.ifrn.edu.br/campus/natalcentral/)
+- **Objetivos**:
+- [notas de aula](/notas_de_aula)
+- [códigos exemplo](/exemplos)
 
 ---
 
 ## Projetos desenvolvidos por alunos
+### 2026
+
+---
 ### 2025
 - Pixel Fight: [GitHub](https://github.com/yfabricios/Pygame) [Vídeo](https://www.youtube.com/watch?v=zZkXRyK5f50)
 - Food Drop: [GitHub](https://github.com/ana54792/Jogo-pygame-food-drop)
@@ -30,7 +35,7 @@ FIXME
 - Gatíleo: [GitHub](https://github.com/YasElly/Gatileo_Pygame)
 - A Canetada: [GitHub](https://github.com/rafaelalisson-maker/jogo-avaliativo)
 
-
+---
 ### 2024
 - Brick Breaker: [Vídeo](https://youtu.be/1L2g5eXDKUg)
 - Dinossário: [GitHub](https://github.com/noltib/dinossario) [Vídeo](https://www.youtube.com/watch?v=HD_WxuLu6bc)
@@ -42,10 +47,10 @@ FIXME
 - Telu (Terráqueo lunático): [GitHub](https://github.com/Araraaaaaaaa/telu-pygame---..022025) [Vídeo](https://youtu.be/iCMR41gym9Q)
 - Tower Milson: [GitHub](https://github.com/Deyvidjh30/Tower-Milson) [Vídeo](https://www.youtube.com/watch?v=hDVEYLMmQIk)
 
-
+---
 ### 2023
 
-
+---
 ### 2022
 - Altitude: [Github](https://github.com/gaiiiel/altitude-2022)
 - Corrida em Python: [Github](https://github.com/Gabrielsouzad/Opera-o-Pygame)
@@ -63,17 +68,17 @@ FIXME
 - Vostok: [Github](https://github.com/JpRevolut/Vostok_)
 - Word cultural cup: [Github](https://github.com/Fernando-R-Vale/IFRN-pygame-Word_cultural-cup)
 
-
+---
 ### 2021
 
-
+---
 ### 2020
 - Carteiro: [Github](https://github.com/yamazakira/Carteiro)
 - Foguete e os cometas assassinos: [Github](https://github.com/Ramon-Mateus/Jogo)
 - Milano: [Github](https://github.com/LuisaKeys/Milano)
 - Snake X Snake: [Github](https://github.com/ViniDevLabs/FLA_SnakeXSnake)
 
-
+---
 ### 2019
 - Arkanoid: [Github](https://github.com/rafael52468/2019-games)
 - Barbie Power: [Github](https://github.com/vivsgoms/2019-games/)
