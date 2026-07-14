@@ -4,8 +4,12 @@
 
 - **Público alvo**: alunos da disciplina de **Introdução a lógica e programação** do curso de [Infoweb](https://diatinf.ifrn.edu.br/cursos/tecnico-em-informatica-para-internet/) na [DIATINF](https://diatinf.ifrn.edu.br/) no [CNAT-IFRN](https://portal.ifrn.edu.br/campus/natalcentral/)
 - **Objetivos**:
+  - motivar a desenvolver lógica e programação
+  - motivar o trabalho em equipe
+  - iniciar o trabalho em equipe com o github
 - [notas de aula](/notas_de_aula)
 - [códigos exemplo](/exemplos)
+- [guia de README.md do repositório](/guia_readme.md)
 
 ---
 
