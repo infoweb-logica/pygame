@@ -1,3 +1,11 @@
-# Notas de aula sobre pygames
+# Notas de aula de pygame
 
-FIXME
+## Informações gerais
+
+- **Público alvo**: alunos da disciplina de **Introdução a lógica e programação** do curso de [Infoweb](https://diatinf.ifrn.edu.br/cursos/tecnico-em-informatica-para-internet/) na [DIATINF](https://diatinf.ifrn.edu.br/) no [CNAT-IFRN](https://portal.ifrn.edu.br/campus/natalcentral/)
+
+## Notas de aula
+1. :paperclip: [Introdução](01-pygame-introducao.md)
+2. :paperclip: [Placar](02-pygame-placar.md)
+3. :paperclip: [Acompanhando o mouse e criando/movendo inimigos](03-pygame-mouse.md)
+4. :paperclip: Adicionando imagens ao jogo
