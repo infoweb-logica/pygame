@@ -1,4 +1,4 @@
-# Projetos finais de introdução a lógica e programação - Jogos eletrônicos
+# Jogos eletrônicos - Códigos exemplo
 
 ## Informações gerais
 

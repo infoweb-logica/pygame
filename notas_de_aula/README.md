@@ -1,4 +1,4 @@
-# Notas de aula de pygame
+# Jogos eletrônicos - Notas de aula sobre pygame
 
 ## Informações gerais
 
