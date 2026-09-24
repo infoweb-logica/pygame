@@ -18,7 +18,7 @@
 ## O que é o Pygame?
 
 [**Pygame** _Community Edition_ (pygame-ce ou py-ce)](https://pyga.me/) é uma biblioteca de código aberto para Python que facilita o desenvolvimento de jogos e aplicações multimídia.
-[Acesse o link para maiores detalhes sobre porque pygame-ce e não pygame.org]().
+[Acesse o link para maiores detalhes sobre porque pygame-ce e não pygame.org](./pygame-ce.md).
 Ela fornece módulos para:
 
 - Criar e gerenciar **janelas gráficas**
