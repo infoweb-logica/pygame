@@ -15,9 +15,10 @@
 
 ---
 
-## O que é o Pygame?
+## O que é o Pygame CE?
 
-**Pygame** é uma biblioteca de código aberto para Python que facilita o desenvolvimento de jogos e aplicações multimídia. Ela fornece módulos para:
+[**Pygame** _Community Edition_ (pygame-ce ou py-ce)](https://pyga.me/) é uma biblioteca de código aberto para Python que facilita o desenvolvimento de jogos e aplicações multimídia.
+Ela fornece módulos para:
 
 - Criar e gerenciar **janelas gráficas**
 - Desenhar formas, imagens e texto na tela
@@ -25,9 +26,11 @@
 - Capturar entradas do teclado e do **mouse**
 - Controlar o tempo (FPS — *frames per second*)
 
-O Pygame é amplamente usado em cursos de programação porque permite visualizar conceitos de programação de forma interativa, tornando o aprendizado mais dinâmico e divertido.
+O Pygame é usado em cursos de programação porque permite visualizar conceitos de programação de forma interativa, tornando o aprendizado mais dinâmico e divertido.
 
 > 💡 **Curiosidade:** O Pygame é construído sobre a biblioteca SDL (*Simple DirectMedia Layer*), escrita em C, o que garante boa performance mesmo sendo usada a partir do Python.
+
+> 💡 **Curiosidade:** O pygame-ce aceita contribuiões de desenvolvedores iniciantes, para maiores informações acessar o repositório https://github.com/pygame-community/pygame-ce
 
 ---
 
@@ -36,7 +39,7 @@ O Pygame é amplamente usado em cursos de programação porque permite visualiza
 Antes de começar, certifique-se de ter o Python instalado (versão 3.7 ou superior). Para instalar o Pygame, abra o terminal e execute:
 
 ```bash
-pip install pygame
+pip install pygame-ce
 ```
 
 Para verificar se a instalação foi bem-sucedida, execute no terminal:
@@ -45,7 +48,12 @@ Para verificar se a instalação foi bem-sucedida, execute no terminal:
 python -m pygame --version
 ```
 
-Você deverá ver a versão do Pygame impressa na tela.
+Você deverá ver algo parecido com o terminal abaixo informando a versão do pygame-ce impressa na tela.
+
+```bash
+pygame-ce 2.5.8 (SDL 2.32.10, Python 3.14.4)
+C:\Users\2422958.IFRN\Documents\pygame\venv\Scripts\python.exe: No module named pygame.__main__; 'pygame' is a package and cannot be directly executed
+```
 
 ---
 
