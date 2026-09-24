@@ -15,6 +15,7 @@
 
 ## Projetos desenvolvidos por alunos
 ### 2026
+- Azoth
 
 ---
 ### 2025
