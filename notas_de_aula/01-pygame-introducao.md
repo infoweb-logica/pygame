@@ -15,9 +15,10 @@
 
 ---
 
-## O que é o Pygame CE?
+## O que é o Pygame?
 
 [**Pygame** _Community Edition_ (pygame-ce ou py-ce)](https://pyga.me/) é uma biblioteca de código aberto para Python que facilita o desenvolvimento de jogos e aplicações multimídia.
+[Acesse o link para maiores detalhes sobre porque pygame-ce e não pygame.org]().
 Ela fornece módulos para:
 
 - Criar e gerenciar **janelas gráficas**
@@ -26,9 +27,9 @@ Ela fornece módulos para:
 - Capturar entradas do teclado e do **mouse**
 - Controlar o tempo (FPS — *frames per second*)
 
-O Pygame é usado em cursos de programação porque permite visualizar conceitos de programação de forma interativa, tornando o aprendizado mais dinâmico e divertido.
+O pygame-ce é usado em cursos de programação porque permite visualizar conceitos de programação de forma interativa, tornando o aprendizado mais dinâmico e divertido.
 
-> 💡 **Curiosidade:** O Pygame é construído sobre a biblioteca SDL (*Simple DirectMedia Layer*), escrita em C, o que garante boa performance mesmo sendo usada a partir do Python.
+> 💡 **Curiosidade:** O pygame-ce é construído sobre a biblioteca SDL (*Simple DirectMedia Layer*), escrita em C, o que garante boa performance mesmo sendo usada a partir do Python.
 
 > 💡 **Curiosidade:** O pygame-ce aceita contribuiões de desenvolvedores iniciantes, para maiores informações acessar o repositório https://github.com/pygame-community/pygame-ce
 
@@ -36,7 +37,7 @@ O Pygame é usado em cursos de programação porque permite visualizar conceitos
 
 ## Instalação
 
-Antes de começar, certifique-se de ter o Python instalado (versão 3.7 ou superior). Para instalar o Pygame, abra o terminal e execute:
+Antes de começar, certifique-se de ter o Python instalado (versão 3.7 ou superior). Para instalar o pygame-ce, abra o terminal e execute:
 
 ```bash
 pip install pygame-ce
@@ -59,7 +60,7 @@ C:\Users\2422958.IFRN\Documents\pygame\venv\Scripts\python.exe: No module named 
 
 ## Estrutura básica de um programa Pygame
 
-Todo programa Pygame segue uma estrutura em três etapas:
+Todo programa pygame-ce segue uma estrutura em três etapas:
 
 ```
 1. Inicialização  →  pygame.init()
@@ -241,6 +242,6 @@ print("Programa encerrado.")
 ---
 
 > 📚 **Recursos úteis:**
-> - Documentação oficial do Pygame: <https://www.pygame.org/docs/>
-> - Lista completa de eventos: <https://www.pygame.org/docs/ref/event.html>
-> - Lista de teclas (`K_*`): <https://www.pygame.org/docs/ref/key.html>
+> - Documentação oficial do Pygame: <https://pyga.me/docs/>
+> - Lista completa de eventos: <https://pyga.me/docs/ref/event.html>
+> - Lista de teclas (`K_*`): <https://pyga.me/docs/ref/key.html>
