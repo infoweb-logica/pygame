@@ -15,7 +15,7 @@ class Jogador:
         verde = random.randint(0, 255)
         azul = random.randint(0, 255)
         return (vermelho, verde, azul)
-    
+
     @classmethod
     def posicao_aleatoria(cls, janela):
         largura = janela.get_width()
@@ -23,31 +23,31 @@ class Jogador:
         x = random.randint(0, largura)
         y = random.randint(0, altura)
         return (x, y)
-    
+
     def desenhar(self):
-        pygame.draw.circle(self.janela, self.cor, self.posicao, self.tamanho)
+        pygame.draw.circle(self.janela, self.cor, self.posicao, self.tamanho / 2)
 
     def andar(self, direcao):
         if direcao == "cima":
-            if self.posicao[1] - self.tamanho > 0:
-                self.posicao = (self.posicao[0], self.janela.get_height() - 2)
+            if self.posicao[1] - self.tamanho < 0:
+                self.posicao = (self.posicao[0], self.janela.get_height())
             else:
-                self.posicao = (self.posicao[0], self.posicao[1] - 10)
+                self.posicao = (self.posicao[0], self.posicao[1] - self.tamanho / 2)
         elif direcao == "baixo":
-            if self.posicao[1] + self.tamanho < self.janela.get_height():
+            if self.posicao[1] + self.tamanho > self.janela.get_height():
                 self.posicao = (self.posicao[0], 0)
             else:
-                self.posicao = (self.posicao[0], self.posicao[1] + 10)
+                self.posicao = (self.posicao[0], self.posicao[1] + self.tamanho / 2)
         elif direcao == "esquerda":
-            if self.posicao[0] - self.tamanho > 0:
+            if self.posicao[0] - self.tamanho < 0:
+                self.posicao = (self.janela.get_width(), self.posicao[1])
+            else:
+                self.posicao = (self.posicao[0] - self.tamanho / 2, self.posicao[1])
+        elif direcao == "direita":
+            if self.posicao[0] + self.tamanho > self.janela.get_width():
                 self.posicao = (0, self.posicao[1])
             else:
-                self.posicao = (self.posicao[0] - 10, self.posicao[1])
-        elif direcao == "direita":
-            if self.posicao[0] + self.tamanho < self.janela.get_width():
-                self.posicao = (self.posicao[0] + 10, self.posicao[1])
-            else:
-                self.posicao = (self.janela.get_width() - 2, self.posicao[1])
+                self.posicao = (self.posicao[0] + self.tamanho / 2, self.posicao[1])
 
 class Jogo:
     def __init__(self):
@@ -89,7 +89,7 @@ class Jogo:
         if not externo:
             jogador.posicao = Jogador.posicao_aleatoria(self.janela)
             self.jogador = jogador
-    
+
     def start(self, jogador):
         self.inicializar()
         self.adicionar_jogador(jogador)
