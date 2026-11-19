@@ -1,11 +1,13 @@
 import random
+import uuid
 import pygame
 
 class Jogador:
     def __init__(self, nome, cor):
+        self.id = uuid.uuid8()
         self.nome = nome
         self.cor = cor
-        self.posicao = None
+        self.posicao = (-1, -1)
         self.janela = None
         self.tamanho = 20
 
