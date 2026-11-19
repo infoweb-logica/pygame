@@ -20,9 +20,9 @@ async def enviar_mensagem(conexao, mensagem):
 # Envia uma mensagem para todos os jogadores,
 # exceto para quem enviou a mensagem original
 async def avisar_jogadores(mensagem, remetente=None):
-    print("=> notificando jogadores")
+    # print("=> notificando jogadores")
     for jogador in jogadores.values():
-        print(f"==> notificando {jogador["nome"]}")
+        # print(f"==> notificando {jogador['nome']}")
         conexao = jogador["conexao"]
         if conexao != remetente:
             await enviar_mensagem(conexao, mensagem)
@@ -60,6 +60,25 @@ async def conectar_jogador(conexao):
             "posicao": posicao,
             "conexao": conexao
         }
+
+        # Envia o estado atual do jogo para o novo jogador
+        lista_jogadores = []
+
+        for id_existente, jogador_existente in jogadores.items():
+
+            if id_existente == id_jogador:
+                continue
+
+            lista_jogadores.append({
+                "id": id_existente,
+                "nome": jogador_existente["nome"],
+                "posicao": jogador_existente["posicao"]
+            })
+
+        await enviar_mensagem(conexao, {
+            "tipo": "estado_inicial",
+            "jogadores": lista_jogadores
+        })
 
         print(nome, "entrou no jogo!")
 
