@@ -1,0 +1,4 @@
+dotenv==0.9.9
+pygame-ce==2.5.8
+python-dotenv==1.2.4
+websockets==17.4
